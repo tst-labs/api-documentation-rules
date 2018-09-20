@@ -1,5 +1,7 @@
 # API Documentation Rules
 
+[![Build Status](https://travis-ci.org/tst-labs/api-documentation-rules.svg?branch=master)](https://travis-ci.org/tst-labs/api-documentation-rules)
+
 Custom rules for REST api documentation.
 
 ## Installing / Getting started
@@ -30,9 +32,10 @@ And again you'd need to tell what the previous code actually does.
 ## Features
 
 What's all the bells and whistles this project can perform?
-* What's the main functionality
-* You can also do another thing
-* If you get really randy, you can even do this
+
+- What's the main functionality
+- You can also do another thing
+- If you get really randy, you can even do this
 
 ## Contributing
 
