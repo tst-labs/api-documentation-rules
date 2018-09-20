@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-qulice</actionName>
+            <displayName>qulice</displayName>
+            <goals>
+                <goal>qulice:check</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>qulice</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>

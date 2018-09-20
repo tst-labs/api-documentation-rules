@@ -1,0 +1,32 @@
+<p>This rule detects when a class defining a REST resource isn't documented</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+@Path("clients")
+public class ClientResource {
+
+    @GET
+    public Response findAll() {
+        ...
+    }
+
+}
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+@Path("clients")
+@Api("clients")
+public class ClientResource {
+
+    @GET
+    @ApiOperation(
+        value = "Returns all registerd clients",
+        response = Client.class,
+        responseContainer = "List",
+        code = HttpStatus.SC_OK
+    )
+    public Response findAll() {
+        ...
+    }
+
+}
+</pre>

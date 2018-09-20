@@ -1,0 +1,13 @@
+{
+  "title": "Class annotated with @Path should also be annotated with @Api",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "documentation"
+  ],
+  "defaultSeverity": "Blocker"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "A method annotated with @GET, @POST, @DELETE or @POST should also be annotated with @ApiOperation",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "documentation"
+  ],
+  "defaultSeverity": "Blocker"
+}
